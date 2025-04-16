@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+body {
+    background-image: url('../images/background.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    margin: 0; 
+    font-family: 'Pixelify Sans', sans-serif; 
+    height: 100vh
+}
+
+.image-container {
+    display: flex;
+    gap: 0px;
+}
+
+.toggle-image {
+    width: 8.333vw;
+    height: auto;
+}
+
+.toggle-image.darken {
+    filter: brightness(60%);
+}
+
+.borders{
+    gap: 5vw;
+    padding-top: 2vw;
+    padding-left: 8vw;
+
+    display:flex;
+}
+
+.frame-image {
+    height: 75vh;
+    object-fit: cover;
+    width: auto;
+}
+
+.frame_background {
+    background-color: #fffcf6bf;
+    border-radius: 15vh;
+    position: relative;
+}
+
+.math-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    font-family: 'Pixelify Sans', sans-serif;
+  }
